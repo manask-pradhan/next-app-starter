@@ -1,16 +1,18 @@
-# Zigbee
+# Next.js App Starter
 
-Zigbee is a student-run community, led by OUTR MCA students, dedicated to fostering software development skills and innovation.
+A modern, production-ready Next.js starter template with TypeScript, Tailwind
+CSS, and essential development tools pre-configured.
 
 ---
 
-## Tech Stack Proposal
+## Tech Stack
 
-- **Framework:** [Next.js](https://nextjs.org)
-- **Authentication & Storage:** [Appwrite](https://appwrite.io)
-- **UI Library:** [shadcn/ui](https://ui.shadcn.com)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Framework:** [Next.js](https://nextjs.org) 15+ with App Router
 - **Language:** TypeScript
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) v4
+- **Fonts:** [Geist](https://vercel.com/font) (Sans & Mono)
+- **Linting & Formatting:** ESLint, Prettier
+- **Git Hooks:** Husky + lint-staged
 
 ---
 
@@ -18,26 +20,36 @@ Zigbee is a student-run community, led by OUTR MCA students, dedicated to foster
 
 **Prerequisites:**
 
-- Node.js v22.13
-- yarn
+- Node.js v22.13+
+- yarn (recommended)
 
-**Steps:**
+**Quick Start:**
 
+1. **Clone the repository:**
 ```bash
-# Clone the repository
-git clone git@github.com:Zigbee-Student-Developers-Club/zigbee-website.git
+git clone https://github.com/manask-pradhan/next-app-starter.git my-next-app
+```
 
-# Navigate into the project
-cd zigbee-website
+2. **Navigate to the project:**
+```bash
+cd my-next-app
+```
 
-# Install dependencies
+3. **Install dependencies:**
+```bash
 yarn install
+```
 
-# Run the development server
+4. **Start development server:**
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser. The page auto-updates as you edit `src/app/page.tsx`.
+5. **Open your browser:**
+Visit [http://localhost:3000](http://localhost:3000) to see your app!
+
+Open [http://localhost:3000](http://localhost:3000) in your browser. The page
+auto-updates as you edit `src/app/page.tsx`.
 
 ---
 
@@ -73,21 +85,25 @@ src
 - Keep `useState` hooks at the top, followed by other hooks.
 - Destructure props and API responses for cleaner, maintainable code.
 - Avoid unnecessary `div`s and return single components directly.
-- Use template literals, self-closing tags, and object literals for conditional rendering.
+- Use template literals, self-closing tags, and object literals for conditional
+  rendering.
 - Place API routes inside `app/api` folder per Next.js conventions.
-- Check this [article](https://courses.bigbinaryacademy.com/learn-react/miscellaneous/structuring-code/) for more details.
+- Check this
+  [article](https://courses.bigbinaryacademy.com/learn-react/miscellaneous/structuring-code/)
+  for more details.
 
 ---
 
 ## Available Scripts
 
-| Script   | Description                      |
-| -------- | -------------------------------- |
-| `dev`    | Runs the app in development mode |
-| `build`  | Builds the app for production    |
-| `start`  | Runs the production server       |
-| `lint`   | Runs ESLint to check code style  |
-| `format` | Formats code using Prettier      |
+| Script         | Description                          |
+| -------------- | ------------------------------------ |
+| `dev`          | Runs the app in development mode     |
+| `build`        | Builds the app for production        |
+| `start`        | Runs the production server           |
+| `lint`         | Runs ESLint to check code style      |
+| `format`       | Formats code using Prettier          |
+| `format:check` | Checks if code is properly formatted |
 
 ---
 
@@ -96,26 +112,34 @@ src
 - **VSCode Extensions:** ESLint, Prettier, Tailwind CSS IntelliSense
 - **Pre-commit hooks:** Husky + lint-staged
 - **EditorConfig:** Enforces consistent editor settings
-- **Node Version & Package Manager:** Specified in `.nvmrc` / `.node-version` and lockfile
+- **Node Version & Package Manager:** Specified in `.nvmrc` / `.node-version`
+  and lockfile
 
 ---
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for coding standards, PR guidelines, and contribution workflow.
+Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for coding standards, PR
+guidelines, and contribution workflow.
 
 ---
 
 ## Deployment
 
-- Recommended platform: [Vercel](https://vercel.com) for Next.js SSR & static builds
-- Refer to [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Vercel** (Recommended): Zero-config deployment for Next.js
+- **Netlify**: Great for static sites and SSG
+- **Railway/Render**: For full-stack applications
+- See
+  [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying)
+  for more options
 
 ---
 
-## References & Learning
+## Useful Resources
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Learn Next.js](https://nextjs.org/learn)
-- [Appwrite Documentation](https://appwrite.io/docs)
-- [shadcn/ui](https://ui.shadcn.com)
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js
+  features and API
+- [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial
+- [Tailwind CSS](https://tailwindcss.com/docs) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/docs) - JavaScript with syntax for
+  types
